@@ -19,12 +19,14 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Roboto", sans-serif;
   color: #000; }
 
-a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
-  a, a:hover {
-    text-decoration: none !important; }
+  .mcontact {
+    transition: all 0.3s ease;
+  }
+
+  .mcontact:hover{
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+  }
 
 .text-black {
   color: #000; }
@@ -67,13 +69,18 @@ a {
   border-radius: 0;
   font-size: 12px;
   letter-spacing: .2rem;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: 0.2s ease;
+ }
   .btn.btn-primary {
     background: #ff1d44;
     color: #fff;
     padding: 15px 20px; }
   .btn:hover {
-    color: #fff; }
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.2s ease;
+  }
   .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none;
