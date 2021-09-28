@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #fff;
   line-height: 1.9;
-  color: #8c8c8c;
+  color: #000;
   position: relative; }
   body:before {
     z-index: -1;
@@ -12,7 +12,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: #37b9f1; }
+    background: #222222; }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -69,7 +69,7 @@ a {
   letter-spacing: .2rem;
   text-transform: uppercase; }
   .btn.btn-primary {
-    background: #8739f1;
+    background: #ff1d44;
     color: #fff;
     padding: 15px 20px; }
   .btn:hover {
@@ -84,17 +84,17 @@ a {
   box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2); }
   .contact-wrap .col-form-label {
     font-size: 14px;
-    color: #b3b3b3;
+    color: #000;
     margin: 0 0 10px 0;
     display: inline-block;
     padding: 0; }
   .contact-wrap .form, .contact-wrap .contact-info {
     padding: 40px; }
   .contact-wrap .contact-info {
-    color: rgba(255, 255, 255, 0.5); }
+    color:#ffffff; }
     .contact-wrap .contact-info ul li {
       margin-bottom: 15px;
-      color: rgba(255, 255, 255, 0.5); }
+      color:#ffffff; }
       .contact-wrap .contact-info ul li .wrap-icon {
         font-size: 20px;
         color: #fff;
@@ -102,11 +102,11 @@ a {
   .contact-wrap .form {
     background: #fff; }
     .contact-wrap .form h3 {
-      color: #35477d;
+      color: black;
       font-size: 20px;
       margin-bottom: 30px; }
   .contact-wrap .contact-info {
-    background: #8739f1; }
+    background: #ff1d44; }
     .contact-wrap .contact-info h3 {
       color: #fff;
       font-size: 20px;
